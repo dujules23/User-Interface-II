@@ -109,9 +109,17 @@ p{
     padding: 5px;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
 .footer-container{
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    margin: auto;
     background-color: darkturquoise;
     padding: 5%;
     border: 5px darkolivegreen;

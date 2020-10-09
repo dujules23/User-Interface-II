@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="/User-Interface-II/style/index.css" type="text/css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="index.css" type="text/css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body class="container">
@@ -14,10 +14,10 @@
             </div>
 
             <nav class="nav-container">
-                <button>Home</button>
-                <button>About</button>
-                <button>Projects</button>
-                <button>Contact</button>
+                <button><a href="index.html">Home</a></button>
+                <button><a href="about.html">About</a></button>
+                <button><a href="projects.html">Projects</a></button>
+                <button><a href="contact.html">Contact</a></button>
             </nav>
 
             <div>
@@ -33,34 +33,42 @@
     </div>
 
     <section class="middle-section">
-        <div class="main-image">
-            <img src="/User-Interface-II/Main.PNG">
+        <div>
+            <img class="main-image" src="/User-Interface-II/Main.PNG">
         </div>
         
-        <div class="akira">
-            <img src="/User-Interface-II/Akira.PNG">
-        </div>
+        <div class="gallery">
+            <div>
+                <img class="akira" src="/User-Interface-II/Akira.PNG">
+                <p class="picture-text">Akira</p>
+            </div>
         
-        <div class="mvc">
-            <img src="/User-Interface-II/MVC.PNG">
-        </div>
+            <div>
+                <img class="mvc" src="/User-Interface-II/MVC.PNG">
+                <p class="picture-text">Marvel Vs. Capcom</p>
+            </div>
 
-        <div class="lucia">
-            <img src="/User-Interface-II/Lucia.PNG">
-        </div>
+            <div>
+                <img class="lucia" src="/User-Interface-II/Lucia.PNG">
+                <p class="picture-text">Lucia from SFV </p>
+            </div>
 
-        <div class="sfv">
-            <img src="/User-Interface-II/SFV.PNG">
-        </div>
+            <div>
+                <img class="sfv" src="/User-Interface-II/SFV.PNG">
+                <p class="picture-text">SFV Characters</p>
+            </div>
 
-        <div class="end-text">
-            <p>Here are a few pictures of a few of my interests.</p>
-        </div>
+            <div class="end-text">
+                <p>Here are a few pictures of a few of my interests.</p>
+            </div>
+        </div>  
     </section>
 
 
     <footer class="footer-container">
-
+        <div>
+            <button><a href="contact.html">Contact</a></button>
+        </div>
     </footer>
 
 </body>

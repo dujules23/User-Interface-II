@@ -51,8 +51,6 @@ h1,h2{
 }
 
 button{
-    display: flex;
-    justify-content: center;
     background-color: plum;
     color: blue;
     padding: 1rem 3.5rem;
@@ -72,19 +70,16 @@ p{
 }
 
 .main-image{
-    display: flex;
-    justify-content: center;
-    flex-shrink: 1;
     height: 30%;
     width: 100%;
 }
 
 .gallery{
    display: flex;
-   flex-basis: content;
+   /* flex-basis: content; */
    justify-content: flex-start;
    padding: 2%;
-   border: 1px solid yellow;
+   /* border: 1px solid yellow; */
 }
 
 

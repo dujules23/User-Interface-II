@@ -96,15 +96,12 @@ p{
 }
 
 .picture-text{
-    margin: auto;
     display: flex;
     justify-content: center;
 }
 
 .end-text{
-    justify-content: center;
     text-align: center;
-    align-items: center;
     margin: auto;
     padding: 5px;
 }
@@ -116,10 +113,6 @@ footer{
 }
 
 .footer-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin: auto;
     background-color: darkturquoise;
     padding: 5%;
     border: 5px darkolivegreen;

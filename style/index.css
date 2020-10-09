@@ -59,18 +59,17 @@ button{
     margin: 1%;
     font-size: 1rem;
     font-family: 'Roboto mono', monospace;
-    border-radius: 25%;
+    border-radius: 15px;
+}
+
+button a{
+    text-decoration: none;
 }
 
 p{
     font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-/* .middle-section{ 
-    display: flex;
-    justify-content: center;
-} */
 
 .main-image{
     display: flex;
@@ -92,7 +91,7 @@ p{
 .akira, .mvc, .lucia, .sfv{
     width: 15rem;
     height: 30rem;
-    padding: 5px 5px;
+    padding: 5px;
     border-radius: 15%;
 }
 

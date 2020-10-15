@@ -156,7 +156,7 @@ footer{
             flex-direction: column;
             justify-content: center;
             width: 50%;
-            height: 505;
+            
             
             
 
@@ -189,5 +189,10 @@ footer{
         .footer-container{
             text-align: center;
             /* margin: auto; */
+            flex-direction: row;
         }
-}
+
+        .footer-button{
+            display: none;
+        }
+    }

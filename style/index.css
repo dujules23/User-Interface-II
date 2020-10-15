@@ -1,1 +1,198 @@
 /* Add CSS styling here */
+/* html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+} */
+
+*{
+    border: 1px solid black;
+    box-sizing: content-box;
+}
+
+.container{
+    /* width: 90%; */
+    margin: 0 auto;
+
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: darkturquoise;
+}
+
+.title{
+    margin: 0 auto;
+}
+
+h1,h2{
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+    /* width: 90% 90%; */
+}
+
+button{
+    background-color: plum;
+    color: blue;
+    padding: 1rem 3.5rem;
+    margin: 1%;
+    font-size: 1rem;
+    font-family: 'Roboto mono', monospace;
+    border-radius: 15px;
+}
+
+button a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-image{
+    height: 30%;
+    width: 100%;
+}
+
+.gallery{
+   display: flex;
+   justify-content: center;
+   /* flex-basis: content; */
+   /* justify-content: flex-start; */
+   padding: 2%;
+   /* border: 1px solid yellow; */
+}
+
+
+.akira, .mvc, .lucia, .sfv{
+    width: 15rem;
+    height: 30rem;
+    padding: 5px;
+    border-radius: 15%;
+}
+
+.picture-text{
+    display: flex;
+    justify-content: center;
+}
+
+.end-text{
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.footer-container{
+    background-color: darkturquoise;
+    padding: 5%;
+    border: 5px darkolivegreen;
+}
+
+
+@media all and (max-width: 800px){
+
+    .header-container div{
+        text-align: center
+
+    }
+    button{
+        padding: 4%;
+    }
+
+    .gallery{
+        /* flex-direction: column; */
+       flex-flow: wrap;
+       justify-content: space-around;
+    }
+
+    .end-text{
+        align-self: flex-end;
+    }
+}
+
+@media all and (max-width: 500px){
+
+        .container{
+            margin: 0 auto;
+        }
+
+        .header-container{
+            /* justify-content: center; */
+            text-align: center;
+            height: 50%;
+        }
+
+        .nav-container{
+            display: inline-block;
+            flex-direction: column;
+            justify-content: center;
+            width: 50%;
+            
+            
+            
+
+        }
+
+        button{
+            padding: 1rem 1rem;
+            border-radius: 15px;
+        }
+
+        .main-image{
+            height: 0%;
+            width: 100%;
+        }
+
+
+
+        .gallery{
+            flex-direction: row;
+            flex-wrap: wrap;
+
+        }
+
+        .akira, .mvc, .lucia, .sfv{
+            width: 11rem;
+            height: 19rem;
+            padding: 5px;
+            border-radius: 15%;
+        }
+        .footer-container{
+            text-align: center;
+            /* margin: auto; */
+            flex-direction: row;
+        }
+
+        .footer-button{
+            display: none;
+        }
+    }
